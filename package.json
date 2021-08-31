@@ -1,0 +1,49 @@
+{
+  "name": "MiIndicador",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "android": "react-native run-android",
+    "ios": "react-native run-ios",
+    "start": "react-native start",
+    "test": "jest",
+    "lint": "eslint ."
+  },
+  "dependencies": {
+    "@eva-design/eva": "^2.1.1",
+    "@react-navigation/native": "^6.0.2",
+    "@react-navigation/native-stack": "^6.1.0",
+    "@reduxjs/toolkit": "^1.6.1",
+    "@ui-kitten/components": "^5.1.1",
+    "@ui-kitten/eva-icons": "^5.1.1",
+    "add": "^2.0.6",
+    "axios": "^0.21.1",
+    "metro-config": "^0.66.2",
+    "moment": "^2.29.1",
+    "react": "17.0.2",
+    "react-native": "0.65.1",
+    "react-native-chart-kit": "^6.11.0",
+    "react-native-safe-area-context": "^3.3.0",
+    "react-native-screens": "^3.6.0",
+    "react-native-svg": "^12.1.1",
+    "react-redux": "^7.2.4",
+    "redux": "^4.1.1",
+    "redux-saga": "^1.1.3",
+    "yarn": "^1.22.11"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.15.0",
+    "@babel/runtime": "^7.15.3",
+    "@react-native-community/eslint-config": "^3.0.0",
+    "babel-jest": "^27.1.0",
+    "eslint": "^7.32.0",
+    "jest": "^27.1.0",
+    "metro-react-native-babel-preset": "^0.66.2",
+    "react-native-codegen": "^0.0.7",
+    "react-native-svg-transformer": "^0.14.3",
+    "react-test-renderer": "17.0.2"
+  },
+  "jest": {
+    "preset": "react-native"
+  }
+}
